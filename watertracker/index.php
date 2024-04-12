@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Water Intake Tracker</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../watertracker/css/index.css">
+    <link rel="stylesheet" href="../css/index.css">
     <style>
         .bg-yellow {
             background-color: yellow !important;
@@ -24,11 +24,11 @@
                             <a class="nav-link" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../watertracker/login/login_view.php">Login</a>
+                            <a class="nav-link" href="../login/login_view.php">Login</a>
                         </li>
                         <!-- New "Register" navigation link -->
                         <li class="nav-item">
-                            <a class="nav-link" href="../watertracker/login/register_view.php">Register</a>
+                            <a class="nav-link" href="../login/register_view.php">Register</a>
                         </li>
                     </ul>
                 </div>
@@ -47,7 +47,7 @@
                 <li>Set hydration goals and track progress over time.</li>
                 <li>Gain insights into hydration patterns for optimal health and well-being.</li>
             </ul>
-            <img src="../watertracker/img/homepage.jpg" alt="Water Intake Tracker Image">
+            <img src="../img/homepage.jpg" alt="Water Intake Tracker Image">
         </div>
     </section>
 
