@@ -19,9 +19,9 @@ define('DB_PASSWORD', 'ade1214f');
 define('DB_NAME', 'heroku_f7dfd3145aba5cc');
 
 
-$con = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
-if (!$con) {
+if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 } 
 
